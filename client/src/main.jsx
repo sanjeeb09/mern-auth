@@ -11,6 +11,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <PersistGate persistor={persistor} loading={null}>
       <App />
     </PersistGate>
-    
-  </Provider>,
+  </Provider>
 );
