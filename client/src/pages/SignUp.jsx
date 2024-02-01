@@ -45,7 +45,7 @@ export default function Signup() {
           id="username"
           className="bg-slate-100 p-3 rounded-lg"
           onChange={handleChange}
-          required
+
         />
         <input
           type="email"
@@ -53,7 +53,6 @@ export default function Signup() {
           id="email"
           className="bg-slate-100 p-3 rounded-lg"
           onChange={handleChange}
-          required
         />
         <input
           type="password"
@@ -61,7 +60,6 @@ export default function Signup() {
           id="password"
           className="bg-slate-100 p-3 rounded-lg"
           onChange={handleChange}
-          required
         />
         <button disabled={loading} className="bg-blue-500 text-white p-3 rounded-lg uppercase hover:opacity-95 disabled:opacity-70">
           {loading ? 'Loading...' : 'Sign Up'}
